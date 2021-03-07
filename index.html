@@ -1,23 +1,31 @@
 <!DOCTYPE html>
-<html lang="english">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
+
     <link rel="stylesheet" type="text/css" href="style.css" />
     <title>HTML, CSS & Git Basics</title>
   </head>
+
   <body>
     <div id="container">
-      <div id="header">
-        <h2>Task HTML, CSS & Git Basics</h2>
+      <header>
+        <h1>Task HTML, CSS & Git Basics</h1>
         <hr />
-      </div>
+      </header>
 
-      <div id="content">
-        <div id="text">
-          <h2 class="title">RSschool-CV</h2>
+      <main>
+        <section id="text">
+          <h2>RSschool-CV</h2>
           <ol>
             <li>Dina Shchobova</li>
-            <li>e-mail: dina.shchobova@gmail.com</li>
+            <li>
+              Сontacts:
+              <ul>
+                <li>dina.shchobova@gmail.com</li>
+                <li>+375291095015</li>
+              </ul>
+            </li>
             <li>I want to study the front-end to start my career</li>
             <li>
               I don’t have any special job skills yet but I hope to acquire them
@@ -32,14 +40,38 @@
             </li>
             <li>My english level is A2</li>
           </ol>
-        </div>
+        </section>
+        <figure id="photo">
+          <img src="images/dina_shchobova.jpg" class="responsive" alt="фото" />
+        </figure>
+      </main>
 
-        <div id="photo">
-          <img src="images/dina_shchobova.jpg" class="responsive" />
+      <footer>
+        <div id="line">
+          <hr />
         </div>
-      </div>
-
-      <div id="clear"></div>
+        <div id="logo">
+          <figure>
+            <a href="https://rs.school/js/"
+              ><img
+                src="https://rs.school/images/rs_school_js.svg"
+                height="32"
+                alt="course logo"
+            /></a>
+            <figcaption>JavaScript/Front-end course</figcaption>
+          </figure>
+          <figure>
+            <a href="https://github.com/dina-shchobova"
+              ><img src="images/logo_git_2.png" height="32" alt="logo git"
+            /></a>
+            <figcaption>My GitHub profile</figcaption>
+          </figure>
+          <figure>
+            <div class="year-pseudo-icon"></div>
+            <figcaption>2021</figcaption>
+          </figure>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
