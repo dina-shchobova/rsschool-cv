@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8"/>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="style.css"/>
     <title>HTML, CSS & Git Basics</title>
 </head>
@@ -15,6 +15,9 @@
     </header>
 
     <main>
+        <div id="my-photo-container">
+            <img src="images/dina_shchobova.jpg" id="my-photo" alt="фото"/>
+        </div>
         <section id="text">
             <h2>RSschool-CV</h2>
             <ol>
@@ -41,37 +44,36 @@
                 <li>My english level is A2</li>
             </ol>
         </section>
-        <div id="photo">
-            <img src="images/dina_shchobova.jpg" class="responsive" alt="фото"/>
-        </div>
-    </main>
 
-    <footer>
-        <div id="line">
-            <hr/>
-        </div>
-        <div id="logos">
-            <figure>
-                <a href="https://rs.school/js/"
-                ><img
-                        src="https://rs.school/images/rs_school_js.svg"
-                        height="32"
-                        alt="course logo"
-                /></a>
-                <figcaption>JavaScript/Front-end course</figcaption>
-            </figure>
-            <figure>
-                <a href="https://github.com/dina-shchobova"
-                ><img src="images/logo_git_2.png" height="32" alt="logo git"
-                /></a>
-                <figcaption>My GitHub profile</figcaption>
-            </figure>
-            <figure>
-                <div class="year-pseudo-icon"></div>
-                <figcaption>2021</figcaption>
-            </figure>
-        </div>
-    </footer>
+    </main>
 </div>
+
+<footer>
+    <div id="line">
+        <hr/>
+    </div>
+    <div id="logos">
+        <figure>
+            <a href="https://rs.school/js/"
+            ><img
+                    src="https://rs.school/images/rs_school_js.svg"
+                    height="32"
+                    alt="course logo"
+            /></a>
+            <figcaption>JavaScript/Front-end course</figcaption>
+        </figure>
+        <figure>
+            <a href="https://github.com/dina-shchobova"
+            ><img src="images/logo_git_2.png" height="32" alt="logo git"
+            /></a>
+            <figcaption>My GitHub profile</figcaption>
+        </figure>
+        <figure>
+            <div id="year-pseudo-icon"></div>
+            <figcaption>2021</figcaption>
+        </figure>
+    </div>
+</footer>
+
 </body>
 </html>
